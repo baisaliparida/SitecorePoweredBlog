@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{C35A8CDA-FBCA-4122-9144-4F2853FF611E}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{F9439B77-0105-438D-A932-DB705EF99998}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{380FC67B-98E9-4045-8ABF-D20F29C5093D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{9D30435D-8742-40A3-8741-6079571CBA6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{17A91337-28EB-4149-B537-56E10BE8D77E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecorePoweredBlog.Feature.Search", "src\Feature\Search\code\SitecorePoweredBlog.Feature.Search.csproj", "{AF526FCD-5A06-497F-8E30-3470D32BE3AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postcard", "Postcard", "{A5570C45-0639-4607-954E-0AF7291A91E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecorePoweredBlog.Feature.Postcard", "src\Feature\Postcard\code\SitecorePoweredBlog.Feature.Postcard.csproj", "{D73F9064-8695-4A7B-AF66-EB33DE2A171A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3A7D5B0B-E6CF-4EF6-BE51-EE872E87C30B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecorePoweredBlog.Feature.Common", "src\Feature\Common\code\SitecorePoweredBlog.Feature.Common.csproj", "{8B030667-8723-46E0-8C9A-0B267D7BE18C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF526FCD-5A06-497F-8E30-3470D32BE3AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF526FCD-5A06-497F-8E30-3470D32BE3AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF526FCD-5A06-497F-8E30-3470D32BE3AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF526FCD-5A06-497F-8E30-3470D32BE3AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73F9064-8695-4A7B-AF66-EB33DE2A171A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73F9064-8695-4A7B-AF66-EB33DE2A171A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73F9064-8695-4A7B-AF66-EB33DE2A171A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73F9064-8695-4A7B-AF66-EB33DE2A171A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B030667-8723-46E0-8C9A-0B267D7BE18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B030667-8723-46E0-8C9A-0B267D7BE18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B030667-8723-46E0-8C9A-0B267D7BE18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B030667-8723-46E0-8C9A-0B267D7BE18C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17A91337-28EB-4149-B537-56E10BE8D77E} = {380FC67B-98E9-4045-8ABF-D20F29C5093D}
+		{AF526FCD-5A06-497F-8E30-3470D32BE3AC} = {17A91337-28EB-4149-B537-56E10BE8D77E}
+		{A5570C45-0639-4607-954E-0AF7291A91E0} = {380FC67B-98E9-4045-8ABF-D20F29C5093D}
+		{D73F9064-8695-4A7B-AF66-EB33DE2A171A} = {A5570C45-0639-4607-954E-0AF7291A91E0}
+		{3A7D5B0B-E6CF-4EF6-BE51-EE872E87C30B} = {380FC67B-98E9-4045-8ABF-D20F29C5093D}
+		{8B030667-8723-46E0-8C9A-0B267D7BE18C} = {3A7D5B0B-E6CF-4EF6-BE51-EE872E87C30B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41BB52AA-ECBD-4FA1-8AD0-9D3EB59FB89D}
+	EndGlobalSection
+EndGlobal
